@@ -1,0 +1,14 @@
+.course_page_image {
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.comment {
+    border-radius: 20px;
+    border: 2px solid #198754;
+}
+
+.comment-text {
+    word-wrap: break-word;
+}

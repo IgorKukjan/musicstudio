@@ -1,0 +1,6 @@
+.course_page_image {
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 25vw;
+}
