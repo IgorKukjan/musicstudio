@@ -17,7 +17,7 @@
     <title><fmt:message key="company.name" bundle="${rb}"/> - <fmt:message key="page.name.home" bundle="${rb}"/></title>
 </head>
 <body>
-<jsp:include page="parts/header.jsp" flush="true"/>
+<%--<jsp:include page="parts/header.jsp" flush="true"/>--%>
 <div id="home_carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#home_carousel" data-bs-slide-to="0" class="active"
@@ -72,7 +72,7 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-<jsp:include page="parts/footer.jsp"/>
+<%--<jsp:include page="parts/footer.jsp"/>--%>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
